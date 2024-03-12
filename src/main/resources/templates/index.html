@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>WebApp</title>
+</head>
+<body>
+<h1>WebApp JC</h1>
+<p>WebApp es una aplicación web simple que demuestra cómo utilizar Spring Boot, Thymeleaf y Bootstrap.</p>
+<div>
+    <h2>Número Aleatorio</h2>
+    <p th:text="'Número aleatorio generado: ' + ${numeroAleatorio}"></p>
+</div>
+<p><a href="/employees">Empleados</a></p>
+<p><a href="/departments">Departamentos</a></p>
+<p><a href="/projects">Proyectos</a></p>
+<p><a href="/tasks">Tareas</a></p>
+<p><a href="/time-entries">Entradas de Tiempo</a></p>
+<p><a href="/reports">Informes</a></p>
+<p><a href="/settings">Configuración</a></p>
+<p><a href="/logout">Cerrar Sesión</a></p>
+</body>
+</html>
